@@ -100,7 +100,7 @@ def handle_message(event):
                 prizelist.append(sixlist[i])
               
             if mtext in prizelist:
-                message=TextSendMessage(text='前三碼有中呦,後面五碼自己對\n'+monoNum(0))
+                message=TextSendMessage(text='前三碼有中呦,後面五碼自己對\n\n'+monoNum(0))
         
     
             

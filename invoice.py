@@ -100,7 +100,7 @@ def handle_message(event):
                 prizelist.append(sixlist[i])
               
             if mtext in prizelist:
-                message=('前三碼有中呦,後面五碼自己對')
+                message=('前三碼有中呦,後面五碼自己對\n')
                 message+=monoNum(0)
             else:
                 message=('很可惜，沒對中，請輸入下一張發票後三碼')

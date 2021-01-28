@@ -101,6 +101,9 @@ def handle_message(event):
               
             if mtext in prizelist:
                 message=TextSendMessage(text='前三碼有中呦,後面五碼自己對\n'+monoNum(0))
+        
+    
+            
             else:
                 message=TextSendMessage(text='很可惜，沒對中，請輸入下一張發票後三碼')
             line_bot_api.reply_message(event.reply_token,message)
